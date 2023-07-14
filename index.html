@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos on-line</title>
+    <link rel="stylesheet" href="css/esqueleto.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/personalizado.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="six columns u-pull-rigth">
+                    <img src="img/logo.png" id="logo">
+                </div>
+
+                <div class="two columns u-pull-rigth">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito" />
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>¡Sin miedo al éxito! Aprende algo nuevo</h2>
+                        <p>Todos los cursos a $15</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>
+                        20.000 Cursos en linea <br />
+                        Explora los temas más recientes
+                    </p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>
+                        Instructores expertos <br />
+                        Aprende con distintos estilos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Cursos en línea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>HTML5, CSS3 y JavaScript</h4>
+                        <p>Lina Ascanio</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Menú de comidas vegetarianas</h4>
+                        <p>Camila Flórez</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth"> $15 </span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso3.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Guitarra para Principiantes</h4>
+                        <p>Ernesto Mata</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso4.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Aprende sobre plantas</h4>
+                        <p>Emilio Blanco</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso5.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Decora tu hogar</h4>
+                        <p>Douglas Galdino</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Diseño web </h4>
+                        <p>Lina Ascanio</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Comida mexicana para principiantes</h4>
+                        <p>Daniela Alfonso</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso3.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Estudio musical en tu casa</h4>
+                        <p>Claudia Cardozo</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Cosecha tus propias frutas y verduras</h4>
+                        <p>Carolina Gámez</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso5.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>Prepara galletas caseras</h4>
+                        <p>Alba Arias</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="10">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>JavaScript Moderno con ES6</h4>
+                        <p>Lina Ascanio</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="11">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso4.jpg" class="imagen-cruso u-full-width" />
+                    <div class="info-card">
+                        <h4>100 Recetas de Comida Natural</h4>
+                        <p>Paola Flórez</p>
+                        <img src="img/estrellas.png" alt="" />
+                        <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="12">Agregar
+                            al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav id="principal" class="menu">
+                            <a class="enlace" href="#">Para tu negocio</a>
+                            <a class="enlace" href="#">Convierte en instructor</a>
+                            <a class="enlace" href="#">Aplicaciones móviles</a>
+                            <a class="enlace" href="#">Soporte</a>
+                            <a class="enlace" href="#">Temas</a>
+                        </nav>
+                    </div>
+
+                    <div class="four columns">
+                        <nav id="secundaria" class="menu">
+                            <a class="enlace" href="#">¿Quienes somos?</a>
+                            <a class="enlace" href="#">Empleo</a>
+                            <a class="enlace" href="#">Blog</a>
+                        </nav>
+                    </div>
+                </div>
+        </footer>
+        <script src="/js/tienda.js"></script>
+</body>
+
+</html>
